@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+Training/
+anaconda_projects/
+
+*.keras
+*.weights.h5
+*_tf.h5
+*_bk.h5
