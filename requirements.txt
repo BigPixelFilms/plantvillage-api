@@ -3,4 +3,6 @@ uvicorn
 python-multipart
 pillow
 numpy<2
-tensorflow-cpu==2.10.0
+tensorflow==2.10.1
+
+
