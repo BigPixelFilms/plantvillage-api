@@ -20,7 +20,9 @@ if __name__ == "__main__":
 # Load model ONCE at startup
 # -------------------------------
 BASE_DIR = Path(__file__).resolve().parents[1]
-MODEL_PATH = r"C:/Users/india/anaconda_projects/PlantVillage/models/ModelPatato_FINAL.h5"
+MODEL_PATH = MODEL_PATH = "models/ModelPatato.h5"
+model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+
 model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 
 
